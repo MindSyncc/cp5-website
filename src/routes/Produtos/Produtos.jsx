@@ -22,7 +22,7 @@ const Produtos = () => {
     <Card.Body>
         <Card.Title>BYD Dolphin</Card.Title>
         <Card.Text>
-        Destaque no mercado global de EVs
+        Destaque no mercado global de EVs.
         </Card.Text>
         <Button variant="primary">Saber mais</Button>
     </Card.Body>
@@ -33,7 +33,7 @@ const Produtos = () => {
     <Card.Body>
         <Card.Title>Kia EV4 Concept</Card.Title>
         <Card.Text>
-   Se destaca como símbolo de inovação, inspirado no pilar "Power to Progress"
+   Se destaca como símbolo de inovação, inspirado no pilar "Power to Progress".
         </Card.Text>
         <Button variant="primary">Saber mais</Button>
     </Card.Body>
@@ -44,7 +44,7 @@ const Produtos = () => {
     <Card.Body>
         <Card.Title>Toyota bZ4X</Card.Title>
         <Card.Text>
-        A primeira aposta 100% elétrica da Toyota
+        A primeira aposta 100% elétrica da Toyota.
         </Card.Text>
         <Button variant="primary">Saber mais</Button>
     </Card.Body>
