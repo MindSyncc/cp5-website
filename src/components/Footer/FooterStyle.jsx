@@ -1,6 +1,9 @@
 import styled from 'styled-components';
 
-export const LoginStyle = styled.section`
+export const FooterStyle = styled.section`
+
 
 
 `;
+
+
