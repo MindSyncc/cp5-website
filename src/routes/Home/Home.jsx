@@ -56,7 +56,7 @@ const Home = () => {
                 <p>
                     Junte-se à revolução verde e faça parte da mudança! Escolha um carro elétrico e contribua para um planeta mais limpo e sustentável. Venha explorar, aprender e escolher seu próximo veículo com a gente!
                 </p>
-                <a className="btn btn-primary btn-lg" href="#" role="button">Saiba mais</a>
+                <a className="btn btn-primary btn-lg" href="/sobre" role="button">Saiba mais</a>
             </div>
         </HomeStyle>
     );
