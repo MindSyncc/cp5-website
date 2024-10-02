@@ -1,6 +1,11 @@
 import styled from 'styled-components';
 
 export const HomeStyle = styled.section`
+.carousel-item img {
+    max-height: 350px; /* Altura máxima da imagem */
+    
+}
+
 .jumbotron{
   background-color: white;
   border: none;
@@ -11,9 +16,10 @@ export const HomeStyle = styled.section`
   display: inline-block;
   font-size: 16px;
   cursor: pointer;
-  margin-top: 80px;
+  margin-top: 40px;
    margin-bottom: 80px;
 }
+
 
 `;
 

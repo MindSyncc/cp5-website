@@ -1,13 +1,16 @@
-import { SobreStyle } from '../../routes/Sobre/SobreStyle'
-import React from 'react';
+
+import { SobreStyle } from '../../routes/Sobre/SobreStyle';
+
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
 
 
+
 const About = () => {
     return (
+        <SobreStyle>
         <Container className="mt-5">
             <h1 className="text-center mb-4">Sobre Nós</h1>
             <Row>
@@ -44,7 +47,7 @@ const About = () => {
                         <Card.Img variant="top" src="path/to/equipe1.jpg" />
                         <Card.Body>
                             <Card.Title>Fernando Carlos</Card.Title>
-                            <Card.Text>Função - Breve descrição do membro da equipe.</Card.Text>
+                          
                         </Card.Body>
                     </Card>
                 </Col>
@@ -53,7 +56,7 @@ const About = () => {
                         <Card.Img variant="top" src="path/to/equipe2.jpg" />
                         <Card.Body>
                             <Card.Title>Heloísa Fleury</Card.Title>
-                            <Card.Text>Função - Breve descrição do membro da equipe.</Card.Text>
+                            
                         </Card.Body>
                     </Card>
                 </Col>
@@ -62,7 +65,7 @@ const About = () => {
                         <Card.Img variant="top" src="path/to/equipe3.jpg" />
                         <Card.Body>
                             <Card.Title>Juan Fuentes</Card.Title>
-                            <Card.Text>Função - Breve descrição do membro da equipe.</Card.Text>
+                            
                         </Card.Body>
                     </Card>
                 </Col>
@@ -70,8 +73,8 @@ const About = () => {
                     <Card>
                         <Card.Img variant="top" src="path/to/equipe3.jpg" />
                         <Card.Body>
-                            <Card.Title>Julia Caroline</Card.Title>
-                            <Card.Text>Função - Breve descrição do membro da equipe.</Card.Text>
+                            <Card.Title>Julia Carolina</Card.Title>
+                           
                         </Card.Body>
                     </Card>
                 </Col>
@@ -80,12 +83,13 @@ const About = () => {
                         <Card.Img variant="top" src="path/to/equipe3.jpg" />
                         <Card.Body>
                             <Card.Title>Pedro Henrique Batista</Card.Title>
-                            <Card.Text>Função - Breve descrição do membro da equipe.</Card.Text>
+                        
                         </Card.Body>
                     </Card>
                 </Col>
             </Row>
         </Container>
+        </SobreStyle>
     );
 }
 

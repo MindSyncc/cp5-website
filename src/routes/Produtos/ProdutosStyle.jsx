@@ -4,8 +4,9 @@ export const ProdutosStyle = styled.section`
    
     .container {
         display: flex;
-        justify-content: space-around;
         flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 20px;
     }
 `;
 
