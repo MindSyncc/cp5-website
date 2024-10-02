@@ -11,7 +11,7 @@ const Header=()=> {
     <NavStyle>
     <Navbar expand="lg" className=" navbar-dark custom-navbar">
       <Container>
-        <Navbar.Brand href="#home">VoltsDrive</Navbar.Brand>
+        <Navbar.Brand href="/">VoltsDrive</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
