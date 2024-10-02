@@ -13,7 +13,7 @@ const Slideshow = () => {
             <Carousel.Item>
                 <img
                     className="d-block w-100"
-                    src={Figura2}
+                    src={Figura4}
                     alt="Primeiro slide"
                 />
                 <Carousel.Caption>
@@ -33,7 +33,7 @@ const Slideshow = () => {
             <Carousel.Item>
                 <img
                     className="d-block w-100"
-                    src={Figura4}
+                    src={Figura2}
                     alt="Terceiro slide"
                 />
                 <Carousel.Caption>

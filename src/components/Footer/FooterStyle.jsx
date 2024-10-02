@@ -2,13 +2,24 @@ import styled from 'styled-components';
 
 export const FooterStyle = styled.section`
 
-.list a{
-    text-decoration: none;
-    
+
+.list,
+.list2 {
+    list-style-type: none; 
+    padding: 0; 
 }
-.list{
-    list-style-type: none;
+
+.list a,
+.list2 a {
+    text-decoration: none; 
+    color: white; 
 }
+
+.list a:hover,
+.list2 a:hover {
+    text-decoration: underline; 
+}
+
 .footer{
     background-color: black;
 }

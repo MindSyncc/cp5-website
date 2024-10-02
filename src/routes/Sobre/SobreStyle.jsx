@@ -9,4 +9,8 @@ h1, h2 {
 .card {
     margin-bottom: 20px; /* Espaçamento entre os cards */
 }
+
+.img-fluid{
+    width: 50%
+}
 `;

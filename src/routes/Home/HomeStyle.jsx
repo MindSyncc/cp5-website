@@ -10,11 +10,11 @@ export const HomeStyle = styled.section`
   background-color: white;
   border: none;
   color: black;
-  padding: 15px 180px;
+  padding: 15px 200px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 20px;
   cursor: pointer;
   margin-top: 40px;
    margin-bottom: 80px;
