@@ -1,12 +1,51 @@
-import { ProdutosStyle } from '../../routes/Produtos/ProdutosStyle'
+import Button from 'react-bootstrap/Button';
+import Card from 'react-bootstrap/Card';
+import './ProdutosStyle.jsx'
+import Carro1 from '../../assets/carro1.jpg'
 
-const Produto = () => {
+
+
+const Produtos = () => {
     return (
-        <ProdutosStyle><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita eius itaque at dolore, saepe facere totam veniam quis enim dolorum inventore quasi odit fuga earum sunt! Quaerat illum molestias quasi.</p>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore debitis blanditiis nostrum pariatur voluptas mollitia temporibus eos a, quidem, alias placeat, culpa recusandae facere obcaecati! Animi repellendus laborum fuga porro.</p>
-        </ProdutosStyle> 
+    
+    
+    <section className="container">
+    <Card style={{ width: '18rem' }}>
+    <Card.Img variant="top" src={Carro1} />
+    <Card.Body>
+        <Card.Title>Carro 1</Card.Title>
+        <Card.Text>
+        Melhor Carro de corrida de rua do mundo das ruas Velozes e Furiosis
+        </Card.Text>
+        <Button variant="primary">Saiba Mais...</Button>
+    </Card.Body>
+    </Card>
+
+    <Card style={{ width: '18rem' }}>
+    <Card.Img variant="top" src={Carro1} />
+    <Card.Body>
+        <Card.Title>Carro 2</Card.Title>
+        <Card.Text>
+        Melhor Carro de corrida de rua do mundo das ruas Velozes e Furiosis
+        </Card.Text>
+        <Button variant="primary">Saiba Mais...</Button>
+    </Card.Body>
+    </Card>
+
+    <Card style={{ width: '18rem' }}>
+    <Card.Img variant="top" src={Carro1} />
+    <Card.Body>
+        <Card.Title>Carro 3</Card.Title>
+        <Card.Text>
+        Melhor Carro de corrida de rua do mundo das ruas Velozes e Furiosis
+        </Card.Text>
+        <Button variant="primary">Saiba Mais...</Button>
+    </Card.Body>
+    </Card>
+    </section>
+   
     );
     
 }
 
-export default Produto;
+export default Produtos;

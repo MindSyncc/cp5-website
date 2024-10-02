@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="row">
           <div className="col-md-4">
             <h5>VoltsDrive</h5>
-            <p>Um jogo de simulação de corridas emocionantes com muita estratégia.</p>
+            <p>Aqui você encontra as melhores opções disponíveis no mercado.</p>
           </div>
           <div className="col-md-4">
             <h5>Links</h5>

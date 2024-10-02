@@ -10,7 +10,7 @@ export const FooterStyle = styled.section`
     list-style-type: none;
 }
 .footer{
-    background-color: #400101;
+    background-color: black;
 }
 
 `;

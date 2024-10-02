@@ -5,12 +5,11 @@ const Home=()=> {
     <HomeStyle>
         
     <div className="jumbotron">
-    <h1 className="display-4">Seja Bem Vindo</h1>
+    <h1 className="display-4">Seja Bem-Vindo</h1>
     <p className="lead">A VoltsDrive é a maior loja de carros elétricos do Brasil</p>
     <hr className="my-4"/>
     <p>
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim incidunt exercitationem mollitia eaque error accusamus praesentium dolorum ex perspiciatis in quaerat beatae, voluptatum assumenda aliquid qui, illo recusandae! Necessitatibus, nemo!
-    </p>
+    Junte-se à revolução verde e faça parte da mudança! Escolha um carro elétrico e contribua para um planeta mais limpo e sustentável. Venha explorar, aprender e escolher seu próximo veículo com a gente!    </p>
     <a className="btn btn-primary btn-lg" href="#" role="button">Saiba mais</a>
     </div>
     </HomeStyle>

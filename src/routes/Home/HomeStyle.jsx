@@ -2,15 +2,17 @@ import styled from 'styled-components';
 
 export const HomeStyle = styled.section`
 .jumbotron{
-    background-color: #260101;
+  background-color: white;
   border: none;
-  color: white;
-  padding: 15px 32px;
+  color: black;
+  padding: 15px 180px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
   cursor: pointer;
+  margin-top: 80px;
+   margin-bottom: 80px;
 }
 
 `;
