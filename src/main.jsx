@@ -9,6 +9,7 @@ import Sobre from "./routes/Sobre/Sobre.jsx";
 import Produtos from "./routes/Produtos/Produtos.jsx";
 import Cadastro from "./routes/CadastrarProdutos/CadastrarProdutos.jsx";
 import ListarProdutos from "./routes/ListarProdutos/ListarProdutos.jsx";
+import Usuario from './routes/Usuario/Usuario.jsx'
 
 // Função que cria as rotas
 

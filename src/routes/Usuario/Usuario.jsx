@@ -1,7 +1,7 @@
 import { MdCancel } from "react-icons/md";
 import { useParams, Link,useNavigate } from "react-router-dom";
 import { useState, useEffect} from "react";
-import ListarProdutos from "./ListarProdutos";
+import ListarProdutos from "../ListarProdutos/ListarProdutos";
 
 
 const Usuario=()=>{
