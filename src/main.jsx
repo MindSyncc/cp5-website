@@ -30,6 +30,8 @@ const router = createBrowserRouter([
         //listar
         {path:'/listarprodutos',element:<ListarProdutos/>},
 
+        {path:'/usuario',element:<Usuario/>},
+
         //Editar
   
     ],
