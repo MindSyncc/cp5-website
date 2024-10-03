@@ -1,7 +1,8 @@
 import { MdCancel } from "react-icons/md";
 import { useParams, Link,useNavigate } from "react-router-dom";
 import { useState, useEffect} from "react";
-import ListarProdutos from "../ListarProdutos/ListarProdutos";
+import Produtos from "../Produtos/Produtos";
+import {UsuarioStyle} from "../../routes/Usuario/UsuarioStyle"
 
 
 const Usuario=()=>{
@@ -65,6 +66,7 @@ const Usuario=()=>{
      },[id])
 
     return (
+        <UsuarioStyle>
         <section className="usuario">
             <h1>Cadastro de Usuários</h1>
             <form onSubmit={handleSubmit}>
@@ -96,11 +98,12 @@ const Usuario=()=>{
                 </Link>
 
                 {/*Chamando o componente listar usuarios */}
-                <ListarProdutos/>
+
 
             </form>
 
         </section>
+        </UsuarioStyle>
     )
 }
 export default Usuario

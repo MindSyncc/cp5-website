@@ -20,6 +20,12 @@ export const HomeStyle = styled.section`
    margin-bottom: 80px;
 }
 
+.container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 20px;
+    }
 
 `;
 

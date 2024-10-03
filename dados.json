@@ -1,5 +1,46 @@
 {
-    "usuarios": [
-  
-    ]
-  }
+  "usuarios": [
+    {
+      "id": "1",
+      "usuario": "usuario1",
+      "senha": "senha1"
+    },
+    {
+      "id": "1d19",
+      "usuario": "adm",
+      "senha": "123"
+    },
+    {
+      "id": "12e9",
+      "usuario": "adm23",
+      "senha": "123"
+    },
+    {
+      "id": "2f1a",
+      "usuario": "adm23",
+      "senha": "123"
+    }
+  ],
+  "produtos": [
+    {
+      "id": "1959",
+      "nome": "fff",
+      "preco": "50"
+    },
+    {
+      "id": "da58",
+      "nome": "carro",
+      "preco": "50"
+    },
+    {
+      "id": "358b",
+      "nome": "carro",
+      "preco": "44"
+    },
+    {
+      "id": "3ab5",
+      "nome": "carro",
+      "preco": "12"
+    }
+  ]
+}
