@@ -8,6 +8,7 @@ import Login from "./routes/Login/Login.jsx";
 import Sobre from "./routes/Sobre/Sobre.jsx";
 import Produtos from "./routes/Produtos/Produtos.jsx";
 import Cadastro from "./routes/CadastrarProdutos/CadastrarProdutos.jsx";
+import ListarProdutos from "./routes/ListarProdutos/ListarProdutos.jsx";
 
 // Função que cria as rotas
 
@@ -24,7 +25,13 @@ const router = createBrowserRouter([
       { path: "/login", element: <Login /> },
       { path: "/sobre", element: <Sobre /> },
       { path: "/produtos", element: <Produtos /> },
-      { path: "/cadastrarprodutos", element: <Cadastro /> },
+      { path: "/cadastrarProduto", element: <Cadastro /> },
+
+        //listar
+        {path:'/listarprodutos',element:<ListarProdutos/>},
+
+        //Editar
+  
     ],
   },
 ]);
