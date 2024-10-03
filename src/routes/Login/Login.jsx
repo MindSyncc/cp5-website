@@ -1,7 +1,6 @@
 import { useRef, useState, useEffect } from "react"
 import { useNavigate, Link } from "react-router-dom";
-
-
+import {LoginStyle} from "../../routes/Login/LoginStyle"
 
 
 const Login=()=>{
@@ -42,7 +41,7 @@ const Login=()=>{
                 Math.random().toString(16).substring(2)
                 sessionStorage.setItem("usuario",usuario.current.value);
                 sessionStorage.setItem("senha",token)
-                navigate("/dashboard")
+                navigate("/cadastrarProduto")
 
         }else{
                 alert("usuario/senha inválidos")
@@ -107,12 +106,12 @@ const Login=()=>{
                             </li>
                             <li>
                                 <span className="text1">Não possui conta?</span>
-                                <Link to="/usuario">Criar</Link>
+                                <Link to="/cadastrarProduto">Criar</Link>
                             </li>
                         </ul>
                     </form>
                 </div>
-                <img src={Imagem} alt="logo imagem"/>
+                
             </div>
         </section>
         </LoginStyle>
