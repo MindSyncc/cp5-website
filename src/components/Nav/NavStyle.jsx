@@ -14,6 +14,14 @@ export const NavStyle = styled.section`
   cursor: pointer;
 }
 
+.custom-navbar .nav-link {
+  color: white; 
+}
+
+.custom-navbar .nav-link:hover {
+  color: #D3D3D3; 
+}
+
 `;
 
 
