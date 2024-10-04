@@ -1,28 +1,8 @@
 {
   "usuarios": [
     {
-      "id": "1",
-      "usuario": "usuario1",
-      "senha": "senha1"
-    },
-    {
       "id": "1d19",
       "usuario": "adm",
-      "senha": "123"
-    },
-    {
-      "id": "12e9",
-      "usuario": "adm23",
-      "senha": "123"
-    },
-    {
-      "id": "2f1a",
-      "usuario": "adm23",
-      "senha": "123"
-    },
-    {
-      "id": "69b4",
-      "usuario": "adm77",
       "senha": "123"
     }
   ],

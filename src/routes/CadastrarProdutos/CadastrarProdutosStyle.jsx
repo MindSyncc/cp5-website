@@ -54,7 +54,8 @@ export const CadastrarProdutoStyle = styled.div`
     margin-bottom: 20px;
   }
 
-  th, td {
+  th,
+  td {
     padding: 12px;
     border: 1px solid #ccc;
     text-align: center;
@@ -99,7 +100,8 @@ export const CadastrarProdutoStyle = styled.div`
       font-size: 14px;
     }
 
-    th, td {
+    th,
+    td {
       font-size: 14px;
       padding: 10px;
     }

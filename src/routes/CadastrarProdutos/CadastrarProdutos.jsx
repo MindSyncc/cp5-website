@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import { FaEdit, FaTrash } from 'react-icons/fa';
+import { FaEdit, FaTrash } from "react-icons/fa";
 import { CadastrarProdutoStyle } from "../../routes/CadastrarProdutos/CadastrarProdutosStyle";
 
 const Cadastro = () => {
@@ -9,15 +9,15 @@ const Cadastro = () => {
 
   const handleDelete = (id) => {
     fetch(`http://localhost:5000/produtos/${id}`, {
-        method: 'DELETE',
+      method: "DELETE",
     })
-    .then(() => {
-        setProdutos(produtos.filter(produto => produto.id !== id)); // Remove produto da lista
-    })
-    .catch((error) => {
+      .then(() => {
+        setProdutos(produtos.filter((produto) => produto.id !== id)); // Remove produto da lista
+      })
+      .catch((error) => {
         console.log(error);
-    });
-};
+      });
+  };
 
   // Função para buscar produtos
   const fetchProdutos = async () => {
