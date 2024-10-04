@@ -72,7 +72,7 @@ const Home = () => {
             <section className="container">
     <Card style={{ width: '18rem' }}>
     <Card.Img variant="top" src={Carro1} />
-    <Card.Body>
+    <Card.Body >
         <Card.Title>BYD Dolphin</Card.Title>
         <Card.Text>
         Destaque no mercado global de EVs.

@@ -24,6 +24,12 @@ export const FooterStyle = styled.section`
     background-color: black;
 }
 
+@media (max-width:600px){
+  *{
+    font-size: 0.8rem;
+  }
+}
+
 `;
 
 

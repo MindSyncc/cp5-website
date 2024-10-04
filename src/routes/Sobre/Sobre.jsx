@@ -44,7 +44,6 @@ const About = () => {
                 <Row>
                     <Col md={4}>
                         <Card>
-                            <Card.Img variant="top" src="path/to/equipe1.jpg" />
                             <Card.Body>
                                 <Card.Title>Fernando Carlos</Card.Title>
                             </Card.Body>
@@ -52,7 +51,6 @@ const About = () => {
                     </Col>
                     <Col md={4}>
                         <Card>
-                            <Card.Img variant="top" src="path/to/equipe2.jpg" />
                             <Card.Body>
                                 <Card.Title>Heloísa Fleury</Card.Title>
                             </Card.Body>
@@ -60,7 +58,6 @@ const About = () => {
                     </Col>
                     <Col md={4}>
                         <Card>
-                            <Card.Img variant="top" src="path/to/equipe3.jpg" />
                             <Card.Body>
                                 <Card.Title>Juan Fuentes</Card.Title>
                             </Card.Body>
@@ -68,7 +65,6 @@ const About = () => {
                     </Col>
                     <Col md={4}>
                         <Card>
-                            <Card.Img variant="top" src="path/to/equipe4.jpg" />
                             <Card.Body>
                                 <Card.Title>Julia Carolina</Card.Title>
                             </Card.Body>
@@ -76,7 +72,6 @@ const About = () => {
                     </Col>
                     <Col md={4}>
                         <Card>
-                            <Card.Img variant="top" src="path/to/equipe5.jpg" />
                             <Card.Body>
                                 <Card.Title>Pedro Henrique Batista</Card.Title>
                             </Card.Body>

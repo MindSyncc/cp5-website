@@ -28,14 +28,34 @@
   ],
   "produtos": [
     {
-      "id": "1959",
-      "nome": "fff",
-      "preco": "50"
+      "id": "2098",
+      "nome": "BYD Dolphin",
+      "preco": "80000"
     },
     {
-      "id": "0316",
-      "nome": "carro",
-      "preco": "50"
+      "id": "ace8",
+      "nome": "Kia EV4 Concept",
+      "preco": "50000"
+    },
+    {
+      "id": "b43f",
+      "nome": "Toyota bZ4X",
+      "preco": "200000"
+    },
+    {
+      "id": "9d2e",
+      "nome": "BYD Seal",
+      "preco": "165000"
+    },
+    {
+      "id": "b79d",
+      "nome": "BYD Yuan Pro",
+      "preco": "130000"
+    },
+    {
+      "id": "d485",
+      "nome": "BYD Tan EV",
+      "preco": "90000"
     }
   ]
 }

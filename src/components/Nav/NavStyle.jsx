@@ -27,9 +27,13 @@ export const NavStyle = styled.section`
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 @media (max-width:600px){
+  *{
+    font-size: 0.8rem;
+  }
   .brand {
   font-size: 1.2rem;
 }
+
 .custom-navbar{
   padding: 15px ;
 }

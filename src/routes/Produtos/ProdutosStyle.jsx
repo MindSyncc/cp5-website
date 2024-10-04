@@ -9,6 +9,7 @@ export const ProdutosStyle = styled.section`
 .listarProdutos h2 {
   font-size: 24px;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .listarProdutos a {
