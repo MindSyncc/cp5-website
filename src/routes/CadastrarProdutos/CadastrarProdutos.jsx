@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import { CadastrarProdutoStyle } from '../../routes/CadastrarProdutos/CadastrarProdutosStyle';
 
 const Cadastro = () => {
   const [produtos, setProdutos] = useState([]);
@@ -25,6 +26,7 @@ const Cadastro = () => {
   }, []);
 
   return (
+    <CadastrarProdutoStyle>
     <div className="App">
       <h1>Cadastro de Produtos</h1>
       <form onSubmit={cadastrarProduto}>
@@ -65,6 +67,7 @@ const Cadastro = () => {
         </tbody>
       </table>
     </div>
+    </CadastrarProdutoStyle>
   );
 };
 

@@ -30,6 +30,7 @@ const ListarProdutos = () => {
     }, []);
 
     return (
+        <ProdutosStyle>
         <section className="listarProdutos">
             <h2>Listar Produtos Cadastrados</h2>
             <Link to="/cadastrarProduto">Cadastrar Novo Produto</Link>
@@ -59,6 +60,7 @@ const ListarProdutos = () => {
                 </tbody>
             </table>
         </section>
+        </ProdutosStyle>
     );
 };
 

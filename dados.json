@@ -19,6 +19,11 @@
       "id": "2f1a",
       "usuario": "adm23",
       "senha": "123"
+    },
+    {
+      "id": "69b4",
+      "usuario": "adm77",
+      "senha": "123"
     }
   ],
   "produtos": [
@@ -28,19 +33,9 @@
       "preco": "50"
     },
     {
-      "id": "da58",
+      "id": "0316",
       "nome": "carro",
       "preco": "50"
-    },
-    {
-      "id": "358b",
-      "nome": "carro",
-      "preco": "44"
-    },
-    {
-      "id": "3ab5",
-      "nome": "carro",
-      "preco": "12"
     }
   ]
 }

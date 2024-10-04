@@ -1,10 +1,9 @@
 import { HomeStyle } from '../../routes/Home/HomeStyle';
 import Carousel from 'react-bootstrap/Carousel';
 
-import Figura1 from '../../assets/figura1.jpeg';
-import Figura2 from '../../assets/figura2.jpg';
-import Figura3 from '../../assets/figura3.jpg';
-import Figura4 from '../../assets/figura4.jpg';
+import Figura2 from '../../assets/carro10.jpg';
+import Figura3 from '../../assets/carro13.jpg';
+import Figura4 from '../../assets/carro11.jpg';
 
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
@@ -22,7 +21,7 @@ const Slideshow = () => {
         <Carousel>
             <Carousel.Item>
                 <img
-                    className="d-block w-100"
+                    className="d-block w-100 carro"
                     src={Figura4}
                     alt="Primeiro slide"
                 />
@@ -58,7 +57,7 @@ const Slideshow = () => {
 const Home = () => {
     return (
         <HomeStyle>
-            <Slideshow /> {/* Carrossel agora está aqui, antes do jumbotron */}
+            <Slideshow />
             <div className="jumbotron">
                 <h1 className="display-4">Seja Bem-Vindo</h1>
                 <p className="lead">A VoltsDrive é a maior loja de carros elétricos do Brasil</p>
@@ -66,7 +65,8 @@ const Home = () => {
                 <p>
                     Junte-se à revolução verde e faça parte da mudança! Escolha um carro elétrico e contribua para um planeta mais limpo e sustentável. Venha explorar, aprender e escolher seu próximo veículo com a gente!
                 </p>
-                <a className="btn btn-primary btn-lg" href="/sobre" role="button">Saiba mais</a>
+                <a className="btn btn-primary btn-lg custom-btn" href="/sobre" role="button">Saiba mais</a>
+
             </div>
 
             <section className="container">
